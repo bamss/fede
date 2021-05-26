@@ -4,7 +4,7 @@
 }
 
 #img-logo{
-    width: 15rem;
+  width: 7rem;
 }
 #img-logo-small{
     width: 200px;
@@ -49,3 +49,28 @@
       width: 700px;
       height: 450px;
   }
+ li{
+   list-style: none;
+ }
+ #myBar {
+  width: 50%;
+  height: 30px;
+  background-color: #04AA6D;
+  text-align: center; 
+  line-height: 30px; 
+  color: white;
+}
+.ul-contributor li{
+  margin: 20px 100px 0 0;
+}
+nav a{
+  margin-right: 30px;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-size: 23px;
+}
+h1, h2, h3{
+  font-family: 'Inconsolata', monospace;
+  margin: 48px 0;
+  font-size: 44px;
+}

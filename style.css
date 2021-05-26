@@ -22,13 +22,12 @@
       width: 150px;
       text-align: center;
   }
-  /* #slogan{
-    font-family: 'Fredoka One', cursive;
-    font-size: 64px;
-    color: #f7f7f7;
-  } */
+.letters{
+ font-family: 'Inconsolata', monospace; 
+ font-size: 58px;
+}
   .card{
-      width: 14rem;
+      /* width: 14rem; */
       border: none;
   }
 .vision-intro{
@@ -36,10 +35,10 @@
     width: 45rem;
     
 }
-.paris-bk-img{
+/* .paris-bk-img{
     width: 250px;
     height: 350px;
-}
+} */
 .footer {
     background: #F4F4F4;
     display: flex;
@@ -67,7 +66,7 @@
     color: #D23333;
   }
   #img-logo{
-      width: 15rem;
+      width: 7rem;
   }
   .card-1{
       width: 400px;
@@ -93,3 +92,36 @@
     display: inline-block;
     line-height: 1em;
   }
+  .mtb-100{
+    margin: 200px 0;
+}
+nav a{
+  margin-right: 30px;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-size: 23px;
+}
+h2, h3{
+  font-family: 'Inconsolata', monospace;
+  margin: 48px 0;
+  font-size: 44px;
+}
+.ceo{
+  width: 80%;
+}
+.location-banniere {
+  text-align: center;
+  padding: 192px 48px;
+  background: rgba(0, 0, 0, .4) url("img/location.png") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  background-blend-mode: multiply;
+}
+.location-p{
+  font-family: 'Inconsolata', monospace; 
+  font-size: 38px;
+}
+.location-title{
+  font-family: 'Inconsolata', monospace; 
+  font-size: 58px;
+}

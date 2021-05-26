@@ -6,7 +6,7 @@ anime.timeline({loop: true})
   .add({
     targets: '.ml7 .letter',
     translateY: ["1.1em", 0],
-    translateX: ["0.55em", 0],
+    translateX: ["0.55em", 0], 
     translateZ: 0,
     rotateZ: [180, 0],
     duration: 750,
@@ -19,3 +19,6 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+  
+
+
